@@ -1,0 +1,222 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    
+}
+.logo{
+    width: 240px;
+    height: 85px;
+    margin-top: 35px;
+}
+
+.main{
+   display: flex;
+   flex-direction:column;
+   align-items: center;
+   height: 85vh;
+   padding-bottom: 45%; 
+   background-color: #f0f2f5;
+   
+}
+.container{
+    justify-content: space-between;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    width: 395px;
+    height: 390px;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px rgba(36, 36, 36, 0.2);
+    gap: 10px;
+}
+.login{
+    font-size: 1.1rem;
+    margin: 20px 0 10px 0;
+    margin-top: 28px;
+    font-size: 18px;
+}
+input{
+    width: 364px;
+    height: 100px;
+    margin-top: 4px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 6px;
+    font-size: 17px;
+    padding-left: 16px;
+    font-weight: 500;
+    color: rgba(0 ,0,0,0.5);
+    outline-style:none;
+}
+.login-btn{
+    width: 92%;
+    height: 103px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    margin: 10px;
+    color: #1877f2;
+}
+
+.new-account{
+    position: relative;
+    text-shadow: none;
+    height: 103px;
+    width: 49%;
+    color: white;
+    background-color: #42b72a;
+    margin: 10px 0 18px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    border-radius: 7px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login-btn:hover{
+ background-color: #1366d1;
+}
+.new-account:hover{
+    background-color: #3ba327;
+}
+.style{
+    position: relative;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(0,0,0, 0.5);
+}
+.style{
+    margin-top: -6px;
+}
+.style::before{
+    content: "";
+    display: block;
+    height: 0.9px;
+    width: 170px;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    background-color: rgba(0 ,0,0,0.2);
+} 
+.style::after{
+    content: "";
+    display: block;
+    height: 0.9px;
+    width: 170px;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    background-color: rgba(0 ,0,0,0.2);
+} 
+
+
+div.bar{
+    background-color: #fff;
+    color:#737373;
+    margin: 0 auto;
+    width: auto;
+    font-size: 12px;
+    direction: ltr;
+    line-height: 1.40;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 50px;
+    padding: 2px;
+    unicode-bidi: embed;
+}
+
+div .languach{
+    color: #8a8d91;
+    margin-left:  1px;
+    line-height:2.70;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 0;
+}
+
+.las{
+    width: 33px;
+    height: 22px;
+    display: inline-block;
+    border: 1px solid #737373;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px; cursor: pointer;
+    font-size: 20px;
+    background-color: rgba(238, 238, 238, 0.736);
+    color: #686a6d;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.las:hover{
+    background-color: rgb(237, 237, 237);
+}
+.line{
+  border-top: 1px solid #dadde1;
+  width: 980px; 
+  margin-bottom: 10px;
+}
+div .links .link{
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   color: #8a8d91;
+   margin-left:4px;
+   line-height: 1.80;
+   font-size: 12px;
+   padding: 1px;
+}
+div .links .link:hover{
+  text-decoration: underline;
+}
+div .meta{
+    font-family: inherit;
+    margin: auto;
+    padding: 5px;
+    color: rgb(115, 115, 115); 
+    line-height: 4.34;
+    font-size: 11px;
+
+}
+a:hover{
+    text-decoration: underline;
+  }
+ 
+ 
+
+  /*
+   font-size: 20px;
+    margin-bottom: 1px;
+    background-color: rgba(238, 238, 238, 0.736);
+    width: 2.3%;
+    height: 23px;
+    border-radius: 5%;
+    color: #8a8d91;
+    border-bottom: 1px solid #dddfe2;
+    text-align: center;
+    border: 2px solid rgba(0,0,0,0.1);
+  */
+/*
+  border-top: 200;
+  width: 980px;
+  height: 0.6px;
+  color: #fff;
+  background-color: #d6d8dc;
+  */
